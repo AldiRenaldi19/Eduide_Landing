@@ -42,12 +42,12 @@ export default function KurikulumPage() {
     <>
       <Navbar backHref="/" backLabel="Kembali ke Beranda" />
 
-      <header className="bg-slate-900 py-16 px-6 text-center">
+      <header className="bg-slate-900 py-12 md:py-16 px-6 text-center">
         <div data-aos="fade-up">
           <span className="text-teal-400 font-bold tracking-widest uppercase text-xs">
             Modul Literasi Digital & Agama
           </span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mt-4">
+          <h1 className="text-2xl md:text-5xl font-extrabold text-white mt-4">
             Kisah-Kisah dalam <span className="text-teal-400">Al-Qur'an</span>
           </h1>
           <p className="text-slate-400 mt-4 max-w-2xl mx-auto leading-relaxed">
@@ -57,7 +57,7 @@ export default function KurikulumPage() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto py-16 px-6">
+      <main className="max-w-6xl mx-auto py-12 md:py-16 px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {articles.map((art, i) => (
             <article

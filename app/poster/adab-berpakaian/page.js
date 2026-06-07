@@ -239,7 +239,7 @@ export default function PosterAdabBerpakaian() {
       </section>
 
       {/* AYAT SECTION */}
-      <section id="ayat" className="py-24 px-6 max-w-4xl mx-auto">
+      <section id="ayat" className="py-16 md:py-24 px-6 max-w-4xl mx-auto">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">
             Ayat Al-Qur&apos;an
@@ -262,7 +262,7 @@ export default function PosterAdabBerpakaian() {
       </section>
 
       {/* THREE LAYERS OF CLOTHING */}
-      <section className="py-24 px-6 bg-slate-900">
+      <section className="py-16 md:py-24 px-6 bg-slate-900">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16" data-aos="fade-up">
             <span className="text-emerald-400 font-bold tracking-widest uppercase text-xs">
@@ -295,7 +295,7 @@ export default function PosterAdabBerpakaian() {
       </section>
 
       {/* QUOTE BOTTOM */}
-      <section className="py-16 px-6 bg-gradient-to-br from-emerald-900 via-teal-900 to-slate-900">
+      <section className="py-12 md:py-16 px-6 bg-gradient-to-br from-emerald-900 via-teal-900 to-slate-900">
         <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
           <p className="text-emerald-300/80 text-sm font-semibold tracking-widest uppercase mb-4">
             Renungan

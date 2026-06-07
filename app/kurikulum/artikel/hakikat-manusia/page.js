@@ -14,12 +14,12 @@ export default function HakikatManusiaPage() {
     <>
       <Navbar backHref="/kurikulum" backLabel="Kembali ke List" />
 
-      <article className="max-w-4xl mx-auto py-16 px-6" data-aos="fade-up">
+      <article className="max-w-4xl mx-auto py-12 md:py-16 px-6" data-aos="fade-up">
         <header className="mb-12">
           <span className="text-rose-600 font-bold tracking-widest uppercase text-xs">
             Artikel Ilmiah Ringan
           </span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-6">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-6">
             Dualitas Eksistensi: Hakikat Manusia dalam Konteks Islam
           </h1>
           <div className="flex items-center gap-4 mb-8">

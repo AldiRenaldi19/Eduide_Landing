@@ -44,7 +44,7 @@ export default function HomePage() {
               masa kini. Pelajari etika, hukum, dan kebijaksanaan dalam satu
               platform.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <a
                 href="#kurikulum"
                 className="bg-teal-500 text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition transform text-center shadow-lg shadow-teal-500/20"
@@ -89,7 +89,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="kurikulum" className="py-24 px-6 max-w-7xl mx-auto">
+      <section id="kurikulum" className="py-16 md:py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800 uppercase tracking-tight">
             Kurikulum Unggulan
@@ -172,7 +172,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/kurikulum"
-              className="inline-block bg-white text-teal-600 font-bold text-sm px-6 py-2 rounded-xl hover:bg-teal-50 transition"
+              className="inline-block bg-white text-teal-600 font-bold text-sm px-6 py-3 rounded-xl hover:bg-teal-50 transition"
             >
               Buka Artikel →
             </Link>
@@ -180,7 +180,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="video-demo" className="py-24 bg-slate-900 overflow-hidden">
+      <section id="video-demo" className="py-16 md:py-24 bg-slate-900 overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-white mb-8" data-aos="fade-down">
             Video Demo Platform
@@ -202,7 +202,7 @@ export default function HomePage() {
 
       <section
         id="tentang"
-        className="py-24 px-6 max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-center"
+        className="py-16 md:py-24 px-6 max-w-5xl mx-auto flex flex-col md:flex-row gap-12 items-center"
       >
         <div className="flex-1" data-aos="fade-right">
           <h2 className="text-3xl font-bold text-slate-800 mb-6">Misi Eduide.</h2>
