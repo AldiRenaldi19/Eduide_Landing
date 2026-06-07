@@ -20,7 +20,7 @@ const verses = [
       'Keseimbangan antara penampilan dan ketakwaan',
     ],
     warna: 'from-emerald-600 to-teal-600',
-    icon: '👕',
+    icon: '1',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const verses = [
       'Larangan berlebih-lebihan dalam segala hal',
     ],
     warna: 'from-blue-600 to-indigo-600',
-    icon: '👔',
+    icon: '2',
   },
 ]
 
@@ -44,19 +44,19 @@ const layers = [
   {
     name: 'Pakaian Fisik',
     desc: 'Menutup aurat lahiriah, melindungi tubuh, dan sebagai perhiasan.',
-    icon: '👘',
+    icon: '01',
     color: 'bg-teal-100 text-teal-700 border-teal-300',
   },
   {
     name: 'Pakaian Akhlak',
     desc: 'Sopan santun, tutur kata yang baik, dan adab dalam bergaul.',
-    icon: '💬',
+    icon: '02',
     color: 'bg-blue-100 text-blue-700 border-blue-300',
   },
   {
     name: 'Pakaian Takwa',
     desc: 'Iman, rasa malu, dan kesadaran bahwa Allah selalu melihat.',
-    icon: '🌟',
+    icon: '03',
     color: 'bg-emerald-100 text-emerald-700 border-emerald-300',
   },
 ]
